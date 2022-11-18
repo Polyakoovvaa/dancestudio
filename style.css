@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    display: flex;
+}
+
+header{
+    width: 1599px;
+    display: flex;
+    justify-content: center;
+}
+.header_nav{
+    justify-content: space-between;
+    text-decoration: none;
+}
