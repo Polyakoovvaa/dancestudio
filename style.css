@@ -367,9 +367,13 @@ header{
     width: 768px; 
     font-size: 12px;
 }
+.dde{
+    justify-content: space-between;
+}
+
 /*                  1                  */
 .block1{
-    width: 868px;
+   width: 768px; 
     height: 433px;
 }
 .photo_pink{
@@ -407,10 +411,9 @@ header{
 .block2_content{
     display: flex;
     justify-content: center;
-    width:100%;
+    width: 768px; 
     margin: 0 auto;
     margin-bottom: 90px;
-    margin-left: 0px;
 }
 .style_team{
     display: flex;
@@ -491,11 +494,11 @@ header{
 /*                  4                  */
 
 .block4{
-    width: 794px;
-    margin-left: -294px;
+    width: 768px; 
 }
 .ZPP{
 margin-top: -125px;
+
 }
 .title4{
     font-size: 26px;
@@ -503,6 +506,7 @@ margin-top: -125px;
     margin: 50px;
     display: flex;
     justify-content: center;
+    
 }
 .titlezpp{
     font-size: 17px;
@@ -524,7 +528,7 @@ width: 44px;
     height: 36px;
 }
 .forma{
-    margin-left: -205px;
+    margin-left: -305px;
 }
   .title_forma{
     font-weight: 700;
@@ -564,7 +568,7 @@ width: 44px;
     }
 .block2_content{
     flex-direction: column;
-    width: 539px;
+    width: 329px;
     margin-bottom: 60px;
 }
 .title{
@@ -597,11 +601,16 @@ width: 44px;
 .zachita{
 font-size: 10px;
 }
+
+}
+
+
+
+
 @media only screen and (max-width: 320px){
 /*                  меню                 */
 header{
     width: 320px;
-
 }
 .header_logo{
     width: 145px;
@@ -620,7 +629,7 @@ header{
 
 /*                  1                  */
 .block1{
-    width: 380px;
+    width: 320px;
     height: 335px;
 }
 .photo_pink{
@@ -693,7 +702,7 @@ font-size: 8px;
 }
 .block3_content2{
     flex-direction: column;
-    width: 1303px;
+    width: 323px;
 }
 .block3_column2{
     width: 253px;
@@ -719,6 +728,9 @@ font-size: 8px;
 }
 .ZPP{
 margin-top: -125px;
+}
+.forma{
+    margin-left: 34px;
 }
 .title4{
     font-size: 20px;
@@ -750,7 +762,7 @@ margin-top: -125px;
     font-weight: 700;
     font-size: 21px;
     line-height: 74px;
-    margin-left: 253px;
+    margin-left: 0px;
 }
 .title_f{
     font-weight: 650;
@@ -758,35 +770,35 @@ margin-top: -125px;
     line-height: 13px;
     margin-top: 38px;
     margin-bottom: 13px;
-    margin-left: 224px;
-}  
+    margin-left: -16px;
+}
 
 .bottom{
     width: 292px;
     height: 45px;
-border-radius: 7px;
-margin-left: 221px;
+    border-radius: 7px;
+    margin-left: -17px;
 }
 .bottom_f{
     width: 292px;
     height: 45px;
     font-size: 13px;
-    margin-left: 221px;
+    margin-left: -20px;
 }
 .otpravit{
 font-weight: 600;
+width: 292px; 
+height: 45px;
 font-size: 17px;
 line-height: 44px;
 margin-top: 55px;
 padding-top: -6px;
+padding-bottom: 44px;
 }
-
-
-
 /*                  footer                  */
 .footer_t{
     margin-top: 64px;
-    width: 400px;
+    width: 320px;
 }
 .footer_men > a{
     font-size: 10px;
@@ -801,7 +813,4 @@ padding-top: -6px;
     font-size: 10px;
     margin-left: 22px;
 }
-
 }
-}
-
